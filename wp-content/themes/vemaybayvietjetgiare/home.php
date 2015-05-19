@@ -7,7 +7,7 @@
 </div>
 
 <div class="col-md-3">
-
+  <?php get_template_part( '_hinh-thuc-dat-ve' ); ?>
 </div>
 
 <div class="col-md-6 cont-grid">

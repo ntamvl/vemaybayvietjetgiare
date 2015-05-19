@@ -1002,3 +1002,124 @@ a:hover {
 .post-view {
 	text-transform: lowercase;
 }
+
+/* begin cac hinh thuc dat ve*/
+.title-main, .title-main2 {
+	font-size: 20px;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 0px;
+}
+.title-main span {
+	color: #f45e2c
+}
+.title-main2 span {
+	color: #0095eb
+}
+.fa-dat-ve {
+	font-size: 20px;
+	color: #06aaff
+}
+.border-title {
+	height: 10px;
+	margin-bottom: 0px;
+}
+.title-ve-may-bay {
+	border-top: 3px solid #111;
+}
+.title-ve-may-bay span {
+	border-bottom: 3px solid #111;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 3px;
+	border-top: 1px solid #111;
+	display: block;
+	color: #111;
+}
+.disp-title {
+	font-size: 14px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+h3.title-flight-way {
+	margin-bottom: 0;
+	font-weight: 700;
+}
+.icon-datve, .icon-datve2 {
+	padding: 8px 8px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	width: 46px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.icon-datve {
+	background-color: #ff5210;
+}
+.icon-datve2 {
+	background-color: #0095eb;
+}
+.text-chu-thic {
+	float: left;
+}
+.text-big {
+	font-size: 18px;
+	color: #212121;
+}
+.text-small {
+	font-size: 12px;
+	color: #6a6a6a;
+}
+.text-small .yahoo {
+	float: left;
+	margin-right: 5px;
+}
+.text-small a {
+	color: #ff0000;
+	font-weight: 700;
+	float: left;
+	margin-right: 0px;
+}
+.p-seo {
+	font-size: 12px;
+	text-align: center;
+	background-color: #f2f2f2;
+	padding: 15px;
+}
+.margin-top-dat-ve {
+	margin-top: 20px;
+}
+
+.col-dat-ve-1 {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	width: 46px;
+}
+
+.col-dat-ve-2 {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+
+.table-dat-ve {
+	margin-bottom: 0 !important;
+}
+
+.no-margin-lr {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+
+/* end begin cac hinh thuc dat ve*/
