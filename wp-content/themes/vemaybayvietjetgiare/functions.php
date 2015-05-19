@@ -19,6 +19,9 @@
 	add_filter( 'locale', 'vi_change_language');
 	/** end remove meta generator and change locale to vi_VN **/
 
+	update_option('siteurl', 'http://www.vemaybayvietjetgiare.com');
+	update_option('home', 'http://www.vemaybayvietjetgiare.com');
+
 ?>
 <?php // REPLY comment script
 

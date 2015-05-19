@@ -1,5 +1,5 @@
 /*
-Theme Name: vemaybay_od2
+Theme Name: vemaybayvietjetgiare
 Theme URI: 	http://www.vemaybaygiareonline.net/
 Description:Responsive Grid Wordpress Theme based on Boostrap 3, Font Awesome and Isotope.
 Version: 	1.4.2
@@ -24,8 +24,8 @@ whether in an action of contract, tort or otherwise, arising
 from, out of or in connection with the software or the use or
 other dealings in the software.
 
-main green color: #0090ff;
-green hover color: #1c345e;
+main color: #0090ff; --> F507AE
+hover color: #1c345e; --> B2007D
 
 */
 body, html {
@@ -49,7 +49,7 @@ a {
 
 /* #02c29d */
 a:focus, a:hover {
-	color: #0090ff;
+	color: #F507AE;
 }
 
 /* ff0052; */
@@ -59,7 +59,7 @@ a:focus, a:hover {
 	margin: 0;
 	border: none;
 	border-radius: 0;
-	background-color: #0090ff;
+	background-color: #F507AE;
 	background-image: none;
 	text-transform: uppercase;
 }
@@ -84,12 +84,12 @@ a:focus, a:hover {
 	font-weight: 300;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-	background: #1c345e;
+	background: #B2007D;
 	font-weight: 300;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	/*background-color: #168EDE;*/
-	background-color: #1c345e;
+	background-color: #B2007D;
 	color: #FFFFFF;
 }
 .navbar-sub {
@@ -99,7 +99,7 @@ a:focus, a:hover {
 	color: #666;
 }
 .navbar-sub .navbar-nav > li > a:hover {
-	background: #1c345e;
+	background: #B2007D;
 	color: #000;
 }
 
@@ -412,7 +412,7 @@ textarea {
 }
 #submit {
 	margin-top: 10px;
-	background: #0090ff;
+	background: #F507AE;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 15px 20px;
@@ -761,7 +761,7 @@ h2.title-search {
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	color: #0090ff;
+	color: #F507AE;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -770,7 +770,7 @@ h2.title-search-sidebar {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
-	color: #0090ff;
+	color: #F507AE;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -820,9 +820,9 @@ h2.title-search-sidebar {
 }
 .btn-search {
 	border-radius: 0;
-	border: 1px solid #0090ff;
+	border: 1px solid #F507AE;
 	/*background-color: #10669F;*/
-	background-color: #0090ff;
+	background-color: #F507AE;
 	color: #FFF;
 	text-shadow: 1px 1px 0px #333;
 	text-transform: uppercase;
@@ -830,7 +830,7 @@ h2.title-search-sidebar {
 	float: right;
 }
 .btn-search:hover, .btn-search:active {
-	background-color: #1c345e;
+	background-color: #B2007D;
 	color: #FFF
 }
 .ui-datepicker-trigger {
@@ -896,7 +896,7 @@ html, body {
 
 .hotline h2 {
 	/*color: #428bca;*/
-	color: #0090ff;
+	color: #F507AE;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
@@ -946,15 +946,15 @@ html, body {
 }
 
 .sakura {
-	background-color: #0090ff !important;
+	background-color: #F507AE !important;
 }
 
 a {
-	color: #0090ff;
+	color: #F507AE;
 }
 
 a:hover {
-	color: #1c345e;
+	color: #B2007D;
 }
 
 .featured-2 {

@@ -2,7 +2,7 @@
 <div class="wapper-search-home">
   <div class="wapper-search2">
     <div class="col-md-12">
-      <h2 class="title-search-sidebar">Tìm vé máy bay giá rẻ ngay</h2>
+      <h2 class="title-search">Tìm vé máy bay giá rẻ</h2>
     </div>
     <div class="row">
       <div class="col-md-6 height-radio col-xs-6">
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="row margin-top-form">
-      <div class="col-md-12">
+      <div class="col-md-6 min-1">
         <span class="title-search-mini">Điểm khởi hành</span>
         <div class="">
          <select id="select2-airport-code" class="form-control style-form2 populate placeholder location-choose departure-search" name="departure">
@@ -29,7 +29,7 @@
          </select>
        </div>
      </div>
-     <div class="col-md-12">
+     <div class="col-md-6 min-1">
       <span class="title-search-mini">Điểm đến</span>
       <div class="">
         <select id="select2-airport-code" class="form-control style-form2 populate placeholder location-choose destination-search" name="destination">
@@ -39,33 +39,33 @@
     </div>
     </div>
     <div class="row margin-top-form">
-      <div class="col-md-12">
+      <div class="col-md-6 min-1">
         <span class="title-search-mini">Ngày đi</span>
         <div class="wap-field-form">
           <input type="text" class="form-control style-form2 from_date" name="from_date" />
         </div>
       </div>
-      <div class="col-md-12">
+      <div class="col-md-6 min-1">
         <span class="title-search-mini">Ngày về</span>
         <div class="wap-field-form">
           <input type="text" class="form-control style-form2 to_date" name="to_date">
         </div>
       </div>
     </div>
-    <div class="col-md-12"><span class="title-search-mini">Người lớn</span> (>12 tuổi)
+    <div class="col-md-4 min-2"><span class="title-search-mini">Người lớn</span><br />(>12 tuổi)
       <select class="form-control style-form" name="adult" id="adult"></select>
     </div>
-    <div class="col-md-12"><span class="title-search-mini">Trẻ em</span> (2 - 12 tuổi)
+    <div class="col-md-4 min-2"><span class="title-search-mini">Trẻ em</span><br />(2 - 12 tuổi)
       <select class="form-control style-form" name="children" id="child"></select>
     </div>
-    <div class="col-md-12"><span class="title-search-mini">Em bé </span> (< 2 tuổi)
+    <div class="col-md-4 min-2"><span class="title-search-mini">Em bé </span><br />(< 2 tuổi)
       <select class="form-control style-form" name="infant" id="infant"></select>
     </div>
 
     <div class="row">
-      <div class="col-md-12 min-2">
+      <div class="col-md-12 min-0">
         <button type="submit" id="search" name="search" class="btn btn-default btn-search btn-search-home col-md-12 col-xs-12"><span class="glyphicon glyphicon-search"></span>
-          Tìm
+          Tìm vé máy bay
         </button>
       </div>
     </div>
