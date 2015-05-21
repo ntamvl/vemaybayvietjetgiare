@@ -750,12 +750,13 @@ textarea {
 	margin-top: 15px;
 }
 h1.title-search {
-	font-size: 16px;
+	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	color: #666;
+	color: #F507AE;
 	margin: 0;
 	text-transform: uppercase;
+	display: inline;
 }
 h2.title-search {
 	font-size: 28px;
@@ -764,6 +765,7 @@ h2.title-search {
 	color: #F507AE;
 	margin: 0;
 	text-transform: uppercase;
+	display: inline;
 }
 
 h2.title-search-sidebar {
