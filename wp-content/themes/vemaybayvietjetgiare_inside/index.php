@@ -107,6 +107,8 @@
 
 		<div class="pagination">
 
+			 <?php //echo paginate_links( $args ); ?>
+
 			<?php
 			global $wp_query;
 
@@ -116,7 +118,9 @@
 				'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
 				'format' => '?paged=%#%',
 				'current' => max( 1, get_query_var('paged') ),
-				'total' => $wp_query->max_num_pages
+				'total' => $wp_query->max_num_pages,
+				'prev_text' => __('&laquo; Trước'),
+      	'next_text' => __('Sau &raquo;'),
 			) );
 			?>
 

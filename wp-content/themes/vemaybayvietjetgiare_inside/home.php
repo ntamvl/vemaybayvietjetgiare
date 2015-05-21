@@ -10,7 +10,11 @@
   <?php get_template_part( '_hinh-thuc-dat-ve' ); ?>
 </div>
 
-<div class="col-md-6 cont-grid">
+<div class="col-md-3">
+  <?php get_template_part( '_hinh-thuc-thanh-toan' ); ?>
+</div>
+
+<div class="col-md-3 cont-grid">
 
   <?php // if is home and is not paged show featured post
 
@@ -34,6 +38,7 @@
   <?php }  ?>
 
   <div class="grid">
+    <?php //query_posts ('posts_per_page=1'); ?>
 
     <?php if (have_posts()) :?><?php while(have_posts()) : the_post(); ?>
 
@@ -124,7 +129,9 @@
       'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
       'format' => '?paged=%#%',
       'current' => max( 1, get_query_var('paged') ),
-      'total' => $wp_query->max_num_pages
+      'total' => $wp_query->max_num_pages,
+      'prev_text' => __('&laquo; Trước'),
+      'next_text' => __('Sau &raquo;'),
     ) );
     ?>
 
