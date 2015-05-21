@@ -31,9 +31,9 @@
 
 				<div class="sing-tit-cont">
 
-					<p class="cat"> <?php the_category(','); ?></p>
+					<h2 class="cat"> <?php the_category(','); ?></h2>
 
-					<h3 class="sing-tit"><?php the_title(); ?></h3>
+					<h1 class="sing-tit"><?php the_title(); ?></h1>
 
 					<p class="meta">
 

@@ -320,6 +320,15 @@ a:focus, a:hover {
 	font-weight: 700;
 	font-size: 13px;
 }
+
+.cat h2{
+	margin: 10px 0 0 0;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+}
+
 .tag-post {
 	color: #02c29d;
 	text-transform: capitalize;
