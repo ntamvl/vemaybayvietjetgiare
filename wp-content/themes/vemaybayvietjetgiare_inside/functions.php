@@ -27,7 +27,7 @@
 	function change_posts_number_home_page( $query ) {
     if ( is_home() ) {
       $query->set( 'posts_per_page', 1 );
-      $query->set( 'show_posts', 10 );
+      $query->set( 'show_posts', 3 );
     }
 
     return $query;
