@@ -28,6 +28,7 @@
     if ( is_home() ) {
       $query->set( 'posts_per_page', 1 );
       // $query->set( 'showposts', 3 );
+      $query->set( 'numberposts', 2 );
     }
 
     return $query;
