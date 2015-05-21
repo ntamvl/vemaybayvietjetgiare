@@ -49,7 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <<a class="navbar-brand col-xs-10" href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
+          <a class="navbar-brand col-xs-10" href="<?php echo home_url(); ?>" title="<?php bloginfo('name'); ?>">
             <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" style="height: 50px;">
           </a>
         </div>
