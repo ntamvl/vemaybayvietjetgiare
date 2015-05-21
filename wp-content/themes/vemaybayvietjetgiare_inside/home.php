@@ -39,7 +39,7 @@
 
   <div class="grid">
     <?php //query_posts ('posts_per_page=1'); ?>
-
+    <?php query_posts('showposts=2'); ?>
     <?php if (have_posts()) :?><?php while(have_posts()) : the_post(); ?>
 
       <div class="item">
