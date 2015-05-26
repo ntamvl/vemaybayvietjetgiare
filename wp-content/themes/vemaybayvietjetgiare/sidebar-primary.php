@@ -51,6 +51,8 @@
 													'order' => 'DESC'
 												);
 				$popularpost = new WP_Query( $popular_query );
+				$popularpost->set( 'posts_per_page', $posts_per_page );
+
 				while ( $popularpost->have_posts() ) : $popularpost->the_post();?>
 
 				<a href="<?php the_permalink(); ?>">
@@ -105,6 +107,8 @@
 
 		  		<?php
 				$popularpost = new WP_Query( array( 'posts_per_page' => $posts_per_page) );
+				$popularpost->set( 'posts_per_page', $posts_per_page );
+
 				while ( $popularpost->have_posts() ) : $popularpost->the_post();?>
 
 					<a href="<?php the_permalink(); ?>">
@@ -166,6 +170,8 @@
 													'order' => 'DESC'
 												);
 				$popularpost = new WP_Query( $top_views_query );
+				$popularpost->set( 'posts_per_page', $posts_per_page );
+
 				while ( $popularpost->have_posts() ) : $popularpost->the_post();?>
 
 					<a href="<?php the_permalink(); ?>">
