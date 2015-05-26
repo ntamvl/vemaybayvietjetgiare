@@ -2,6 +2,16 @@
 
 <div class="col-md-3 sidebar">
 
+  <?php
+    add_action( 'pre_get_posts',  'change_posts_number_home_page'  );
+    function change_posts_number_home_page( $query ) {
+      if ( is_home() )
+        $query->set( 'posts_per_page', 10 );
+
+      return $query;
+    }
+  ?>
+
   <?php get_sidebar( 'primary' ); ?>
 
 </div>
@@ -32,6 +42,16 @@
     <p class="result">Result for: <strong><i><?php echo $s ?></i></strong></p>
 
   <?php }  ?>
+
+  <?php
+    add_action( 'pre_get_posts',  'change_posts_number_home_page'  );
+    function change_posts_number_home_page( $query ) {
+      if ( is_home() )
+        $query->set( 'posts_per_page', 3 );
+
+      return $query;
+    }
+  ?>
 
   <div class="grid">
 
