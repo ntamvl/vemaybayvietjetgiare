@@ -149,6 +149,7 @@
 			    	</a>
 
 				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
 
 			</div>
 			<!-- end lastest posts -->
@@ -209,6 +210,7 @@
 			    	</a>
 
 				<?php endwhile; ?>
+				<?php wp_reset_query(); ?>
 
 			</div>
 			<!-- end most view -->
