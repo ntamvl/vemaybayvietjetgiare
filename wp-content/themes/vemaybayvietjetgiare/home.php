@@ -38,7 +38,7 @@
   <?php }  ?>
 
   <?php
-
+    query_posts( array( 'posts_per_page' => 3 ) );
   ?>
 
   <div class="grid">
