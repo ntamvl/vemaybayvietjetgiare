@@ -136,6 +136,8 @@
     // ) );
     ?>
 
+    <?php wp_reset_query(); ?>
+
   </div>
 
 </div>

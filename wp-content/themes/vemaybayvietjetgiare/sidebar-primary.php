@@ -46,7 +46,19 @@
 													'posts_per_page' => $posts_per_page,
 													// 'meta_key' => 'wpb_post_views_count',
 													// 'orderby' => 'meta_value_num',
-													'tag_slug__in' => array( 'vé máy bay vietjet giá rẻ', 'promotion', 've may bay khuyen mai', 'khuyen mai', 'vé máy bay khuyến mãi', 'vé máy bay giá rẻ' ),
+													'tag_slug__in' => array(
+																									've-may-bay',
+																									'vé máy bay',
+																									'vé máy bay vietjet',
+																									've-may-bay-vietjet',
+																									'vé máy bay vietjet giá rẻ',
+																									've may bay vietjet gia re',
+																									'promotion',
+																									've may bay khuyen mai',
+																									'khuyen mai',
+																									'vé máy bay khuyến mãi',
+																									'vé máy bay giá rẻ'
+																								),
 													'orderby' => 'date',
 													'order' => 'DESC'
 												);
