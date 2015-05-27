@@ -26,7 +26,8 @@
 	add_action( 'pre_get_posts',  'change_posts_number_home_page'  );
 	function change_posts_number_home_page( $query ) {
     if ( is_home() ) {
-      $query->set( 'posts_per_page', 1 );
+      // $query->set( 'posts_per_page', 1 );
+
       // $query->set( 'showposts', 3 );
       // $query->set( 'numberposts', 2 );
       // add_filter( 'post_limits', 2 );
