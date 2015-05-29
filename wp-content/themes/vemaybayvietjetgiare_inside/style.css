@@ -24,8 +24,8 @@ whether in an action of contract, tort or otherwise, arising
 from, out of or in connection with the software or the use or
 other dealings in the software.
 
-main color: #0090ff; --> F507AE
-hover color: #1c345e; --> B2007D
+main color: F507AE --> 69E811
+hover color: B2007D --> FFDA0B
 
 */
 body, html {
@@ -44,12 +44,12 @@ body.admin-bar .navbar-fixed-top {
 
 /* link color */
 a {
-	color: # F507AE;
+	color: # 69E811;
 }
 
 /* #02c29d */
 a:focus, a:hover {
-	color: #F507AE;
+	color: #69E811;
 }
 
 /* ff0052; */
@@ -59,7 +59,7 @@ a:focus, a:hover {
 	margin: 0;
 	border: none;
 	border-radius: 0;
-	background-color: #F507AE;
+	background-color: #69E811;
 	background-image: none;
 	text-transform: uppercase;
 }
@@ -84,12 +84,12 @@ a:focus, a:hover {
 	font-weight: 300;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-	background: #B2007D;
+	background: #FFDA0B;
 	font-weight: 300;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	/*background-color: #168EDE;*/
-	background-color: #B2007D;
+	background-color: #FFDA0B;
 	color: #FFFFFF;
 }
 .navbar-sub {
@@ -99,7 +99,7 @@ a:focus, a:hover {
 	color: #666;
 }
 .navbar-sub .navbar-nav > li > a:hover {
-	background: #B2007D;
+	background: #FFDA0B;
 	color: #000;
 }
 
@@ -422,7 +422,7 @@ textarea {
 }
 #submit {
 	margin-top: 10px;
-	background: #F507AE;
+	background: #69E811;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 15px 20px;
@@ -763,7 +763,7 @@ h1.title-search {
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	color: #F507AE;
+	color: #69E811;
 	margin: 0;
 	text-transform: uppercase;
 	display: inline;
@@ -772,7 +772,7 @@ h2.title-search {
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	color: #F507AE;
+	color: #69E811;
 	margin: 0;
 	text-transform: uppercase;
 	display: inline;
@@ -782,7 +782,7 @@ h2.title-search-sidebar {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
-	color: #F507AE;
+	color: #69E811;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -832,9 +832,9 @@ h2.title-search-sidebar {
 }
 .btn-search {
 	border-radius: 0;
-	border: 1px solid #F507AE;
+	border: 1px solid #69E811;
 	/*background-color: #10669F;*/
-	background-color: #F507AE;
+	background-color: #69E811;
 	color: #FFF;
 	text-shadow: 1px 1px 0px #333;
 	text-transform: uppercase;
@@ -842,7 +842,7 @@ h2.title-search-sidebar {
 	float: right;
 }
 .btn-search:hover, .btn-search:active {
-	background-color: #B2007D;
+	background-color: #FFDA0B;
 	color: #FFF
 }
 .ui-datepicker-trigger {
@@ -908,7 +908,7 @@ html, body {
 
 .hotline h2 {
 	/*color: #428bca;*/
-	color: #F507AE;
+	color: #69E811;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
@@ -958,15 +958,15 @@ html, body {
 }
 
 .sakura {
-	background-color: #F507AE !important;
+	background-color: #69E811 !important;
 }
 
 a {
-	color: #F507AE;
+	color: #69E811;
 }
 
 a:hover {
-	color: #B2007D;
+	color: #FFDA0B;
 }
 
 .featured-2 {
