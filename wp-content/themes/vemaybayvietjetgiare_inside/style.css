@@ -24,13 +24,8 @@ whether in an action of contract, tort or otherwise, arising
 from, out of or in connection with the software or the use or
 other dealings in the software.
 
-<<<<<<< HEAD
 main color: 69E811 --> 5c8186
 hover color: FFDA0B --> 53686b
-=======
-main color: F507AE --> 69E811
-hover color: B2007D --> FFDA0B
->>>>>>> b7a769707b7ef84d333deeaa2db403d775a07aac
 
 */
 body, html {
@@ -121,7 +116,7 @@ a:focus, a:hover {
 	/*background: #ffcd00 url(img/blue-sky.jpg) no-repeat center top;
 	background-size: cover;*/
 
-	background: #ffcd00 url(img/banner7.jpg) no-repeat center top;
+	background: #5c8186 url(img/banner7.jpg) no-repeat center top;
 
 	/*background: #ffcd00;
   background: -moz-linear-gradient(top,#ffc600 0,#ffbe00 100%);
@@ -982,7 +977,7 @@ a:hover {
 .featured-2 {
 	/*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;*/
 
-	background: #ffcd00 url(img/banner7.jpg) no-repeat center top;
+	background: #5c8186 url(img/banner7.jpg) no-repeat center top;
 	background-size: cover;
 
 	/*background: #ffcd00;
