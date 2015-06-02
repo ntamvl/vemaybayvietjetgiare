@@ -24,8 +24,8 @@ whether in an action of contract, tort or otherwise, arising
 from, out of or in connection with the software or the use or
 other dealings in the software.
 
-main color: F507AE --> 69E811
-hover color: B2007D --> FFDA0B
+main color: 69E811 --> 5c8186
+hover color: FFDA0B --> 53686b
 
 */
 body, html {
@@ -44,12 +44,12 @@ body.admin-bar .navbar-fixed-top {
 
 /* link color */
 a {
-	color: # 69E811;
+	color: # 5c8186;
 }
 
 /* #02c29d */
 a:focus, a:hover {
-	color: #69E811;
+	color: #5c8186;
 }
 
 /* ff0052; */
@@ -59,8 +59,11 @@ a:focus, a:hover {
 	margin: 0;
 	border: none;
 	border-radius: 0;
-	background-color: #69E811;
-	background-image: none;
+	/*background-color: #5c8186;*/
+	/*background-image: none;*/
+
+	background: #5c8186 url(img/top-bg.png) repeat-x left top;
+
 	text-transform: uppercase;
 }
 .navbar h1 {
@@ -84,12 +87,12 @@ a:focus, a:hover {
 	font-weight: 300;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-	background: #FFDA0B;
+	background: #53686b;
 	font-weight: 300;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	/*background-color: #168EDE;*/
-	background-color: #FFDA0B;
+	background-color: #53686b;
 	color: #FFFFFF;
 }
 .navbar-sub {
@@ -99,7 +102,7 @@ a:focus, a:hover {
 	color: #666;
 }
 .navbar-sub .navbar-nav > li > a:hover {
-	background: #FFDA0B;
+	background: #53686b;
 	color: #000;
 }
 
@@ -113,7 +116,9 @@ a:focus, a:hover {
 	/*background: #ffcd00 url(img/blue-sky.jpg) no-repeat center top;
 	background-size: cover;*/
 
-	background: #ffcd00;
+	background: #5c8186 url(img/banner7.jpg) no-repeat center top;
+
+	/*background: #ffcd00;
   background: -moz-linear-gradient(top,#ffc600 0,#ffbe00 100%);
   background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffc600),color-stop(100%,#ffbe00));
   background: -webkit-linear-gradient(top,#ffc600 0,#ffbe00 100%);
@@ -121,7 +126,7 @@ a:focus, a:hover {
   background: -ms-linear-gradient(top,#ffc600 0,#ffbe00 100%);
   background: linear,to bottom,#ffc600 0,#ffbe00 100%;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc600',endColorstr='#ffbe00',GradientType=0);
-  z-index: auto;
+  z-index: auto;*/
 
 	/*background-size: 100%;*/
 	min-height: 50px
@@ -422,7 +427,7 @@ textarea {
 }
 #submit {
 	margin-top: 10px;
-	background: #69E811;
+	background: #5c8186;
 	color: #fff;
 	text-transform: uppercase;
 	padding: 15px 20px;
@@ -763,7 +768,7 @@ h1.title-search {
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	color: #69E811;
+	color: #5c8186;
 	margin: 0;
 	text-transform: uppercase;
 	display: inline;
@@ -772,7 +777,7 @@ h2.title-search {
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	color: #69E811;
+	color: #5c8186;
 	margin: 0;
 	text-transform: uppercase;
 	display: inline;
@@ -782,7 +787,7 @@ h2.title-search-sidebar {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
-	color: #69E811;
+	color: #5c8186;
 	margin: 0;
 	text-transform: uppercase;
 }
@@ -832,9 +837,9 @@ h2.title-search-sidebar {
 }
 .btn-search {
 	border-radius: 0;
-	border: 1px solid #69E811;
+	border: 1px solid #5c8186;
 	/*background-color: #10669F;*/
-	background-color: #69E811;
+	background-color: #5c8186;
 	color: #FFF;
 	text-shadow: 1px 1px 0px #333;
 	text-transform: uppercase;
@@ -842,7 +847,7 @@ h2.title-search-sidebar {
 	float: right;
 }
 .btn-search:hover, .btn-search:active {
-	background-color: #FFDA0B;
+	background-color: #53686b;
 	color: #FFF
 }
 .ui-datepicker-trigger {
@@ -908,7 +913,7 @@ html, body {
 
 .hotline h2 {
 	/*color: #428bca;*/
-	color: #69E811;
+	color: #5c8186;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
@@ -958,21 +963,21 @@ html, body {
 }
 
 .sakura {
-	background-color: #69E811 !important;
+	background-color: #5c8186 !important;
 }
 
 a {
-	color: #69E811;
+	color: #5c8186;
 }
 
 a:hover {
-	color: #FFDA0B;
+	color: #53686b;
 }
 
 .featured-2 {
 	/*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc600 0px, #ffbe00 100%) repeat scroll 0 0;*/
 
-	background: #ffcd00 url(img/blue-sky.jpg) no-repeat center top;
+	background: #5c8186 url(img/banner7.jpg) no-repeat center top;
 	background-size: cover;
 
 	/*background: #ffcd00;
