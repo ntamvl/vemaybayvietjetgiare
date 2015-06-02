@@ -51,8 +51,7 @@
             </td>
             <td class="col-dat-ve-2">
               <div class="text-big">Tại văn phòng Flightbooking</div>
-              <div class="text-small">Lầu 6 Tòa Nhà TS, Số 17 Đường số 2, Cư xá Đô Thành, <br />
-                Phường 4, Quận 3, TP. Hồ Chí Minh</div>
+              <div class="text-small">A01, lầu 4, Tòa nhà Mirae Business Center, 268 Tô Hiến Thành, P.15, Q.10, TP. Hồ Chí Minh</div>
             </td>
           </tr>
         </table>
